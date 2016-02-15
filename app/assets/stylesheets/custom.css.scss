@@ -1,0 +1,146 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$blue:#06A2CB;
+$red:#D74B4B;
+$pink:#C55186;
+$orange:#F78D3F;
+
+#logo {
+
+float: left;
+
+font-size: 1.7em;
+
+color: #fff;
+
+text-transform: uppercase;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+#logo:hover {
+
+color: #fff;
+
+text-decoration: none;
+
+}
+
+.center {
+
+text-align: center;
+
+}
+
+.navbar{
+	background-color: #06A2CB !important;
+}
+
+.jumbotron {
+
+background-image: asset-url('BarcelonaStreet.jpg');
+
+background-size: cover;
+
+height: 400px;
+
+}
+
+.jumbotron{
+	h1 {
+
+	color: #fff;
+
+	text-align: center;
+
+	margin-bottom: 10px;
+	margin-top:-10px;
+
+	letter-spacing: -1px;
+
+	font-weight: bold;
+
+	}
+	
+	.btn:hover{
+		background-color:#76C7F0 !important;
+	}
+
+	} 
+
+
+.btn-xlarge {
+
+font-size: 1.7em;
+
+background-color: $red !important; 
+color:#fff !important;
+
+}
+
+footer {
+
+margin-top: 45px;
+
+padding-top: 5px;
+
+border-top: 1px solid #eaeaea;
+
+color: #777;
+
+}
+
+footer a:hover {
+
+color: #222;
+
+}
+
+footer small {
+
+float: left;
+
+}
+
+footer ul {
+
+float: right;
+
+list-style: none;
+
+}
+
+footer ul li {
+
+float: left;
+
+margin-left: 15px;
+
+}
+
+.article-actions{
+	border-top: 2px solid #eaeaea;
+	padding-top: 5px;
+}
+.description{
+	margin-top: 0;
+}
+
+.article-title{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.article-body{
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 1.3em;
+}
+
+.btn{
+	color:#fff !important;
+}

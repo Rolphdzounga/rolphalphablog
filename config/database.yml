@@ -1,0 +1,29 @@
+
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  database: ablog_dev
+  username: rolph
+  password: '*'
+
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: ablog_dev
+  username: rolph
+  password: '*'
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: ablog_production
+  username: rolph
+  password: '*'
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: ablog_test
+  username: rolph
+  password: '*'
