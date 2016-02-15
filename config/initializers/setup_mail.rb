@@ -1,6 +1,6 @@
 ActionMailer::Base.delivery_method = 'smtp'
 ActionMailer::Base.smtp_settings = {
-	:address => 'smtp.sendgrid.net',
+	:address => ENV['APP_SMTP'],
 	:port => '587',
 	:authentication => :plain,
     :user_name      => ENV['APP_USERNAME'],
