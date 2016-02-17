@@ -43,7 +43,7 @@ config.action_view.raise_on_missing_translations = true
   #config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   
-ActionMailer::Base.delivery_method = :test
+ActionMailer::Base.delivery_method = :smtp
 host = 'localhost:3000'
 config.action_mailer.default_url_options = { host: host }
 
