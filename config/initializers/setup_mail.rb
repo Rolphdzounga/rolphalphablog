@@ -1,10 +1,9 @@
-ActionMailer::Base.delivery_method = 'smtp'
 ActionMailer::Base.smtp_settings = {
 	:address => ENV['APP_SMTP'],
-	:port => '587',
-	:authentication => :plain,
-    :user_name      => ENV['APP_USERNAME'],
-    :password       => ENV['APP_PASSWORD'],
-	:domain => 'heroku.com',
+	:port => ENV['A_PORT'],
+	:domain => ENV['A_DOMAIN'] ,
+	:user_name => ENV['S_USERNAME'],
+	:password => ENV['SENDGRID_PASSWORD'],
+	:authentication => 'plain',
 	:enable_starttls_auto => true
 }
